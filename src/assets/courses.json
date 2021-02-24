@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "img": "https://cdn.auth0.com/blog/react-js/react.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "framworks"
+  },
+  {
+    "id": 2,
+    "title": "Symfony",
+    "img": "https://symfony.com/logos/symfony_black_03.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "framworks"
+  },
+  {
+    "id": 3,
+    "title": "Angular",
+    "img": "https://assets.stickpng.com/thumbs/5847ea22cef1014c0b5e4833.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "framworks"
+  },
+  {
+    "id": 4,
+    "title": "Laravel",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "framworks"
+  },
+  {
+    "id": 5,
+    "title": "Laravel",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "framworks"
+  },
+
+  {
+    "id": 6,
+    "title": "PHP",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 7,
+    "title": "Javascript",
+    "img": "data:image/png;base64,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",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 8,
+    "title": "Python",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 9,
+    "title": "ActionScript",
+    "img": "https://www.keyline.co.za/wp-content/uploads/2015/10/as-01.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 10,
+    "title": "Java",
+    "img": "https://pic.clubic.com/v1/images/1501424/raw",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 11,
+    "title": "Kotlin",
+    "img": "https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 12,
+    "title": "Typescript",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "language"
+  },
+  {
+    "id": 13,
+    "title": "Mern",
+    "img": "https://dotnettrickscloud.blob.core.windows.net/uploads/CourseImages/becomeamernstackdeveloper-mobile.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "stack"
+  },
+  {
+    "id": 14,
+    "title": "Mean",
+    "img": "https://www.offshoreitstaffing.com/images/meanstack.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod recusandae explicabo cum dolorem laborum inventore eveniet, aspernatur esse, labore dolor vitae repellat repudiandae numquam debitis quisquam quasi aliquid praesentium?",
+    "type": "stack"
+  }
+]

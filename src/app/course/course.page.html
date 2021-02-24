@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>course</ion-title>
+  </ion-toolbar>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+</ion-header>
+
+<ion-content>
+  <div class="card">
+    <img class="card-img-top" src="{{crs.imageurl}}" alt="Card image cap" />
+    <div class="card-body">
+      <h5 class="card-title">{{crs.title}}</h5>
+      <p class="card-text">{{crs.description}}</p>
+      <p class="card-text">
+        <small class="text-muted">{{crs.type}}</small>
+      </p>
+      <p class="font-italic text-muted"><small>{{crs.author}}</small></p>
+    </div>
+  </div>
+  <div class="card_buttons">
+    <ion-button
+      fill="outline"
+      color="primary"
+      disabled="{{!logged}}"
+      (click)="buy() "
+    >
+      Buy now!
+    </ion-button>
+    <ion-button
+      class="card_btn_add"
+      color="warning"
+      disabled="{{!logged}}"
+      (click)="addtobasket() "
+      >Add to bag</ion-button
+    >
+  </div>
+
+  <!-- <div class="course_container">
+    <img class="course_img" src="{{crs.imageurl}}" alt="" />
+    <div class="course_title">{{crs.title}}</div>
+    <div class="course_description">{{crs.description}}</div>
+    <div class="course_author">
+      <small>{{crs.author}}</small>
+    </div>
+    <div class="course_buttons">
+      <ion-button fill="outline" color="primary" disabled="{{!logged}}">
+        Buy now!
+      </ion-button>
+      <ion-button
+        class="btn_add"
+        color="warning"
+        disabled="{{!logged}}"
+        (click)="addtobasket() "
+        >Add to bag</ion-button
+      >
+    </div>
+  </div> -->
+</ion-content>

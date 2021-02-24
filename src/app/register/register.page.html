@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Register </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="register_container">
+    <form [formGroup]="registerchk" (ngSubmit)="register()">
+      <ion-input
+        type="text"
+        formControlName="uname"
+        placeholder="Username"
+      ></ion-input>
+      <ion-input
+        type="text"
+        formControlName="mail"
+        placeholder="Address@mail.com"
+      ></ion-input>
+      <ion-input
+        type="password"
+        formControlName="pwd"
+        placeholder="Password"
+      ></ion-input>
+      <ion-input
+        type="password"
+        formControlName="c_pwd"
+        placeholder="Confirm password"
+      ></ion-input>
+      <small class="register_response">{{response}} </small>
+      <div class="register_btn_container">
+        <ion-button type="submit">Register</ion-button>
+        <div class="btn_register_divider"></div>
+        <i> don't worry if you came here by a fault we got you</i>
+
+        <ion-button fill="outline" [routerLink]="['/home']">Sign in</ion-button>
+      </div>
+    </form>
+  </div>
+</ion-content>

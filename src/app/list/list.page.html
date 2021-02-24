@@ -1,0 +1,138 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- <ion-title>Wissem</ion-title>
+    <div class="nav-buttons">
+      <ion-button fill="outline">qsd</ion-button>
+      <ion-button fill="outline">qsd</ion-button>
+      <ion-button fill="outline">qsd</ion-button>
+    </div> -->
+    <div class="list_navbar">
+      <div class="list_navbar_container">
+        <button (click)="filterCards('Languages')">Languages..</button>
+        <button (click)="filterCards('Frameworks')">Frameworks</button>
+        <button (click)="filterCards('Stacks')">Stacks</button>
+        <button (click)="filterCards('Clones')">Clones</button>
+        <img
+          src="https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png"
+          class="navbar_ico"
+          alt="Account"
+        />
+        <p (click)="redirect1()" class="navbar_acc_name">{{logged}}</p>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="basket_ico" (click)="redirect3()">
+    My cart <ion-icon name="cart-outline"></ion-icon>
+  </div>
+
+  <div class="banner_alea_product">
+    <img src="" alt="" />
+    <p class="banner_header">
+      <i
+        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+        possimus, numquam ut eum, commodi tempore
+      </i>
+    </p>
+    <p class="banner_desc">
+      <small
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro
+        voluptate explicabo? Deserunt omnis praesentium nostrum, assumenda quae
+        ipsa dolor odio consequatur autem .</small
+      >
+    </p>
+  </div>
+
+  <div class="products_display">
+    <ion-card *ngFor="let course of courses;" (click)="open(course)">
+      <img src="{{course._source.imageurl}}" />
+      <ion-card-header>
+        <ion-card-title>{{course._source.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content> {{course._source.description}} </ion-card-content>
+    </ion-card>
+    <!-- <ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content> </ion-card
+    ><ion-card>
+      <img src="https://cdn.auth0.com/blog/react-js/react.png" />
+      <ion-card-header>
+        <ion-card-title>Madison, WI</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Founded in 1829 on an isthmus between Lake Monona and Lake Mendota.
+      </ion-card-content>
+    </ion-card> -->
+  </div>
+  <div class="footer">
+    <img
+      (click)="redirect2()"
+      class="add"
+      src="https://cdn.iconscout.com/icon/premium/png-512-thumb/add-product-1-687275.png"
+      alt=""
+    />
+  </div>
+</ion-content>

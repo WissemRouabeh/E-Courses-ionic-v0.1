@@ -1,0 +1,40 @@
+.add_container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-around;
+
+  .left {
+    flex: 0.7;
+    ion-input,
+    ion-textarea {
+      width: 90%;
+      border: 1px solid black;
+      margin-top: 10px;
+      border: 0.5px solid rgb(197, 195, 195);
+      border-radius: 10px;
+    }
+
+    ion-input:hover,
+    ion-textarea:hover {
+      box-shadow: 0 0 10px rgb(191, 191, 236);
+    }
+
+    ion-button {
+      margin-top: 20px;
+      text-transform: inherit;
+    }
+  }
+  .right {
+    width: 160px;
+    height: 160px;
+    border: grey 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    img {
+      object-fit: contain;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.line_course {
+  display: flex;
+  place-items: center;
+  .line_course_ico {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+  }
+  .line_course_title {
+    width: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .qty {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
+
+ion-button {
+  float: right;
+  margin: 20px;
+}

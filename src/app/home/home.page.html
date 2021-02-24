@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Sign in </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="container">
+    <form [formGroup]="loginchk" (ngSubmit)="login()">
+      <ion-input
+        type="text"
+        formControlName="mail"
+        placeholder="Address@mail.com"
+      ></ion-input>
+      <ion-input
+        type="password"
+        formControlName="pwd"
+        placeholder="Password"
+      ></ion-input>
+      <small class="response">{{response}} </small>
+      <div class="btn_container">
+        <ion-button type="submit">Sign in</ion-button>
+        <div class="btn_login_divider"></div>
+        <i> or if you don't have an account</i>
+
+        <ion-button fill="outline" [routerLink]="['/register']"
+          >Register</ion-button
+        >
+      </div>
+    </form>
+  </div>
+</ion-content>

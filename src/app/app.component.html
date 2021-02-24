@@ -1,0 +1,44 @@
+<ion-app>
+  <ion-menu menuId="panel_sidemenu" content-id="p_menu">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>{{ Username }}</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="mycourses">
+            <ion-icon name="archive" slot="start"></ion-icon>
+            <ion-label>My Courses</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="panel">
+            <ion-icon name="settings" slot="start"></ion-icon>
+            <ion-label>Confidentiality</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="mybasket">
+            <ion-icon name="cart" slot="start"></ion-icon>
+            <ion-label>My Cart</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="add">
+            <ion-icon name="add-circle" slot="start"></ion-icon>
+            <ion-label>Add a course</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="logout">
+            <ion-icon name="log-out" slot="start"></ion-icon>
+            <ion-label>Log out</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="p_menu"></ion-router-outlet>
+</ion-app>

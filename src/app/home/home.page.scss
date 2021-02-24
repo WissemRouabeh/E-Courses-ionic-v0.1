@@ -1,0 +1,84 @@
+// #container {
+//   text-align: center;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+
+//   color: #8c8c8c;
+
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
+
+form {
+  box-shadow: 0 0 20px grey;
+  width: 320px;
+  height: 340px;
+  border-radius: 10px;
+  margin: 20vh auto;
+  padding: 10px;
+}
+.btn_container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  i {
+    font-size: 14px;
+  }
+}
+
+.btn_container ion-button:last-child {
+  text-transform: inherit;
+  margin-top: 5px;
+  width: 120px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.btn_container ion-button:not(:last-child) {
+  text-transform: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 160px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.btn_login_divider {
+  height: 1px;
+  width: 90%;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  background-color: rgb(204, 200, 200);
+}
+form ion-input {
+  border: 0.5px solid rgb(197, 195, 195);
+  border-radius: 10px;
+}
+form ion-input:first-child {
+  margin-top: 50px;
+}
+form ion-input:not(:first-child) {
+  margin: 10px 0;
+}
+form ion-input:hover {
+  box-shadow: 0 0 40px rgb(191, 191, 236);
+}
+.response {
+  color: red;
+}

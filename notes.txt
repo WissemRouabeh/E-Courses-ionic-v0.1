@@ -1,0 +1,39 @@
+Course for test
+
+Build an Amazon clone
+
+What you'll learn
+You have used the node ecosystem (npm, Express, etc.). This is NOT an intro to node class and I will NOT cover these in detail.
+You have a solid working knowledge of JavaScript and nodejs (Not a ninja, but you are not new).
+You have basic command line knowledge (at least capable of navigating and running a program).
+You have a computer capable of running Nodejs.
+
+https://migrateshop.com/wp-content/uploads/2019/09/amazon-clone-ecommerce-script.jpg
+
+
+
+
+Accounts for test:
+
+"mail": "roabeh@wis.com",
+                    
+"uname": "wissems",
+        
+"pwd": "12345678",
+    
+ "c_pwd": "12345678"
+
+ "uname": "wissem",
+        
+"mail": "med@mail.com",
+        
+"pwd": "123456789",
+        
+"c_pwd": "123456789"
+
+
+For the too many request problem : 
+
+curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_cluster/settings -d '{ "transient": { "cluster.routing.allocation.disk.threshold_enabled": false } }'
+ 
+curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete": null}'

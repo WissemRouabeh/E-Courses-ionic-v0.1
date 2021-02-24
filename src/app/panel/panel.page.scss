@@ -1,0 +1,28 @@
+form {
+  padding: 2px;
+  ion-input {
+    border: 0.5px solid rgb(197, 195, 195);
+    border-radius: 10px;
+  }
+
+  ion-input:first-child {
+    margin-top: 15px;
+  }
+  ion-input:not(:first-child) {
+    margin: 10px 0;
+  }
+  ion-input:hover {
+    box-shadow: 0 0 10px rgb(191, 191, 236);
+  }
+}
+i {
+  color: grey;
+  font-size: 14px;
+}
+.btn_container {
+  width: 100%;
+  ion-button {
+    float: right;
+    margin: 5px;
+  }
+}

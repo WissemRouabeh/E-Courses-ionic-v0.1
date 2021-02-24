@@ -1,0 +1,32 @@
+{
+  "/courses": {
+    "target": "http://localhost:9200/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/accounts": {
+    "target": "http://localhost:9200/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/basket": {
+    "target": "http://localhost:9200/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/logged": {
+    "target": "http://localhost:9200/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/bought": {
+    "target": "http://localhost:9200/",
+    "changeOrigin": true,
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

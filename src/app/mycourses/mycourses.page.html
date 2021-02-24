@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>My Courses</ion-title
+    ><ion-buttons slot="start">
+      <ion-menu-button menu="panel_sidemenu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="line_course" *ngFor="let course of mycurss;">
+    <img class="line_course_ico" src="{{course._source.imageurl}}" alt="" />
+    <div class="line_course_title" (click)="open(course)">
+      <small>{{course._source.type}} ##|></small> {{course._source.title}}
+    </div>
+    <div class="line_buttons">
+      *<ion-button
+        (click)="remove(course)"
+        color="danger"
+        disabled="{{disabled(course.me)}}"
+      >
+        <ion-icon name="trash-outline"></ion-icon
+      ></ion-button>
+      <ion-button
+        (click)="edit(course)"
+        color="warning"
+        disabled="{{disabled(course.me)}}"
+      >
+        <ion-icon name="create-outline"></ion-icon
+      ></ion-button>
+    </div>
+  </div>
+</ion-content>

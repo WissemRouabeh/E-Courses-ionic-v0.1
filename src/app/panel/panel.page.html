@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>panel</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="panel_sidemenu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+</ion-header>
+
+<ion-content>
+  <div class="panel_container">
+    <div class="alert alert{{alerttxt}}" role="alert">{{response}}</div>
+
+    <i
+      >For your security we recommand to change your password from time to time
+      thank for completing the form bellow !</i
+    >
+    <form [formGroup]="changepwdform" (ngSubmit)="change()">
+      <ion-input
+        type="password"
+        formControlName="old_pwd"
+        placeholder="Old password"
+      ></ion-input>
+      <ion-input
+        type="password"
+        formControlName="new_pwd"
+        placeholder="New password"
+      ></ion-input>
+      <ion-input
+        type="password"
+        formControlName="confirm_pwd"
+        placeholder="Confirm password"
+      ></ion-input>
+      <small class="response">{{response}} </small>
+      <div class="btn_container">
+        <ion-button type="submit">Submit</ion-button>
+      </div>
+    </form>
+  </div>
+</ion-content>
